@@ -1,0 +1,13 @@
+[package]
+name = "agent-memory-store"
+version = "0.1.0"
+edition = "2021"
+description = "Simple key-value memory store for AI agents — persist facts across turns"
+license = "MIT"
+repository = "https://github.com/MukundaKatta/agent-memory-store-rs"
+keywords = ["agent", "memory", "store", "llm", "facts"]
+categories = ["api-bindings"]
+exclude = ["target/*", ".github/*", "*.log"]
+
+[dependencies]
+serde_json = "1"
